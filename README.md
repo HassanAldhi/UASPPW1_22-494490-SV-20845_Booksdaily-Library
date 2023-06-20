@@ -7,7 +7,7 @@ Website ini memiliki tujuan untuk mempermudah pengguna mencari buku yang ingin d
 ### Kebutuhan klien dan permasalahan yang dicover
 Seringkali orang menghabiskan waktu yang cukup lama hanya untuk mencari satu buku. Dengan ada nya website ini pengguna tidak perlu susah payah mencari buku secara manual yang pastinya memakan waktu yang cukup lama. Pencarian pun lebih fleksibel dan mudah, hanya perlu menelusuri buku yang ingin ia pinjam. Kemudian melakukan peminjaman, yang nantinya akan diberikan sebuah kode peminjaman ( fitur ini masih belum dikembangkan lebih lanjut ) lalu kode tersebut diberikan pengguna kepada pustakawan untuk ditukarkan dengan buku yang dipinjam. 
 
-### Desain rapi mengikuti kaidah atau prinsip desain
+### 1. Desain rapi mengikuti kaidah atau prinsip desain
 Desain rapi yang mengikuti kaidah atau prinsip desain melibatkan beberapa aspek penting yang dapat membuat tampilan website menjadi menarik, fungsional, dan mudah digunakan oleh pengguna.
 
 Menjaga konsistensi dalam tata letak, warna, jenis huruf (font), dan gaya elemen di seluruh halaman website. Menempatkan elemen didalam sebuah container akan membuat konten menjadi tertata dan memiliki konsistensi margin pada setiap elemennya
@@ -28,14 +28,29 @@ Menjaga konsistensi dalam tata letak, warna, jenis huruf (font), dan gaya elemen
     </div>
 ```
 
-Menetapkan jenis font dan juga warna background yang diterapkan pada seluruh halaman website. Pada kode css dibawah, font yang digunakan ialah Plus Jakarta Sans dan background color halaman dengan kode #DFD9D5.
+Menetapkan jenis font, ukuran font, warna default dan juga warna background yang diterapkan pada seluruh halaman website. Pada kode css dibawah, font yang digunakan ialah Plus Jakarta Sans dengan color hitam dan background color halaman dengan kode #DFD9D5. Ukuran font sudah disusun berdasarkan tipografi yang dibutuhkan.
 ```css
+*{
+    color: black;
+}
 body{
     font-family: Plus Jakarta Sans, sans-serif;
     background-color: #DFD9D5;
 }
+.font24 {
+    font-size: 24px;
+}
+.font20 {
+    font-size: 20px;
+}
+.font16 {
+    font-size: 16px;
+}
+.font14 {
+    font-size: 14px;
+}
 ```
-### Website responsive
+### 2. Website responsive
 Website responsive adalah kemampuan sebuah website untuk menyesuaikan tampilannya secara otomatis dengan berbagai perangkat dan ukuran layar yang digunakan oleh pengguna, termasuk mobile, tablet, dan laptop. Tujuan utama dari website responsive adalah memberikan pengalaman pengguna yang optimal tanpa mengorbankan kualitas tampilan atau fungsionalitas, terlepas dari perangkat yang digunakan.
 
 Untuk mewujudkan website yang responsive, dapat menggunakan media queries atau menggunakan bootstrap grid. Menyesuaikan ukuran font, gambar, dan elemen-elemen lain agar sesuai dengan perangkat yang digunakan.
@@ -77,7 +92,7 @@ Dari contoh potongan kode css diatas, selector class .hero-header akan merubah p
 ```
 col-lg-3 menunjukkan bahwa kolom tersebut akan memiliki lebar 3 kolom (dari total 12 kolom) pada layar berukuran large ( lebih dari sama dengan 992px ). col-6 menunjukkan bahwa kolom tersebut akan memiliki lebar 6 kolom pada semua ukuran layar yang lebih kecil dari large.
 
-### Direct feedback ke pengguna website
+### 3. Direct feedback ke pengguna website
 Direct Feedback ke pengguna website adalah konsep dimana sebuah website dapat memberikan tanggapan atau informasi secara langsung kepada pengguna terhadap tindakan atau interaksi yang mereka lakukan di dalam website. Tujuan dari direct feedback adalah memberikan pengalaman yang lebih interaktif, informatif, dan responsif kepada pengguna.
 
 Contoh direct feedback yang diterapkan pada website ini adalah ketika pengguna melakukan login. Apabila terjadi kesalahan terhadap username atau password maka akan muncul pesan secara langsung kepada pengguna. 
@@ -117,7 +132,7 @@ Pada kode diatas, logikanya dalah ketika button login di klik dan mengirimkan da
 ```
 Kemudian, didalam tag form melakukan cek apakah variabel error adalah true, jika iya akan muncul paragraf berwarna merah bertuliskan "username or password incorrect".
 
-### Konten dinamis dari database
+### 4. Konten dinamis dari database
 Konten dinamis dari database mengacu pada kemampuan sebuah website untuk menampilkan konten yang diperoleh secara dinamis dari database. Dengan konten dinamis dari database, sebuah website dapat menjadi lebih interaktif, responsif, dan adaptif terhadap perubahan. Pengguna akan mendapatkan konten yang relevan dan terkini, sementara pemilik website dapat dengan mudah mengelola dan mengontrol konten sesuai dengan kebutuhan.
 
 Dalam implementasinya, website dapat menggunakan bahasa pemrograman seperti PHP untuk membuat website menjadi dinamis. PHP menjadi penghubung antara database dan website.
