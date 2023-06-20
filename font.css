@@ -1,0 +1,39 @@
+*{
+    color: black;
+}
+.font24 {
+    font-size: 24px;
+}
+.font20 {
+    font-size: 20px;
+}
+.font16 {
+    font-size: 16px;
+}
+.font14 {
+    font-size: 14px;
+}
+.font13 {
+    font-size: 13px;
+}
+
+.light{
+    font-weight: 300;
+}
+.regular{
+    font-weight: 400;
+}
+.medium{
+    font-weight: 500;
+}
+.semibold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+.extrabold{
+    font-weight: 800;
+}
+
+

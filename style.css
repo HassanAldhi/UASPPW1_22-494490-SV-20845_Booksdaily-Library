@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+body{
+    font-family: Plus Jakarta Sans, Arial, Helvetica, sans-serif;
+    background-color: #DFD9D5;
+}
+
+.grey{
+    color: #4f4f4f;
+}
+.hero-header{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 140%;
+    color: black;
+}
+.rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating .logo {
+    margin-right: 10px; /* Jarak antara gambar dan teks */
+  }
+  
+#menu a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+#menu a:hover{
+    color: black;
+    font-weight: 500;
+}
+
+.sm-button-black{
+    padding: 0px 24px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sm-button-black:hover, .button-black:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border: 1px solid black;
+}
+
+.sm-button-light{
+    padding: 0px 24px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border: 1px solid black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sm-button-light:hover,.button-light:hover{
+    background-color: white;
+    border: none;
+}
+
+.hero-bg{
+    background-image: url(images/hero-illustrate.png);
+    z-index: -1;
+    /* position: absolute; */
+    /* width: 1165px; */
+    background-size: cover;
+    margin-top: 80px;
+    height: 490px;
+    left: 100px;
+    top: 188px;
+}
+
+#account a{
+    padding: 10px 24px;
+    text-decoration: none;
+}
+.button-black{
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-light{
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border: 1px solid black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-outline{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 10px;
+    height: 80px;
+    border: solid 1px white;
+}
+
+.button-outline:hover{
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.quotes{
+    margin: 32px 0px;
+    background-image: url(images/quotesbg.jpg);
+    background-size: cover;
+    height: 722px;
+}
+
+.quotes-text {
+    float: right;
+    padding: 24px;
+    width: 402px;
+    background-color: #ffffff5b;
+}
+
+.qtext{
+    font-size: 56px; 
+    line-height: 82px;
+}
+  
+.category-btn {
+    margin-bottom: 24px;
+    width: 100%;
+  }
+
+#footer a{
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#footer a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+input, textarea {
+    background-color: rgba(255, 255, 255, 0.123);
+    color: black;
+    border-radius: none;
+    border: 1px solid black;
+    padding: 12px 16px;
+    width: 100%;
+}
+input{
+    height: 44px;
+}
+
+/* ---- Login ----- */
+.loginbg{
+    background-image: url(images/loginbg.png);
+    background-size: cover;
+    padding-bottom: 64px ;
+    /* height: 100vh; */
+}
+#menu-light a{
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#menu-light a:hover{
+    color: white;
+    font-weight: 500;
+}
+
+.card-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card{
+    background-color: #DFD9D5;
+    border: none;
+    border-radius: 0;
+    padding: 32px;
+}
+.body{
+    color: #1B1B1B;
+    line-height: 35px;
+}
+
+.reviews{
+    padding: 16px 24px;
+    background-color: #D8D2CE;
+    width: 100%;
+}
+
+.sidebar {
+    /* margin: 0;
+    padding: 0;
+    width: 200px; */
+    /* position: fixed; */
+    height: 100%;
+    /* overflow: auto; */
+  }
+  
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    max-width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+   
+.sidebar a.active, .sidebar a:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+  
+.sidebar a:hover:not(.active) {
+    background-color: #ffffff71;
+    color: rgb(0, 0, 0);
+}
+
+.sidebar .dropdown-content {
+    display: none;
+}
+
+.sidebar a.active .dropdown-content {
+    display: block;
+}
+  
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 800px) {
+    .hero-bg{
+        background-image: url(images/hero-illustrate-2.png);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero-header{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 130%;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+    .qtext{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .quotes-text {
+        float: right;
+        width: 300px;
+    }
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-profile a {
+    color: #4f4f4f;
+    font-size: 16px;
+    text-decoration: none;
+}
+.dropdown-profile a:hover {
+    color: black;
+}
+.dropdown-profile {
+    display: none;
+    position: absolute;
+    background-color: #D8D2CE;
+    min-width: 120px;
+    padding: 12px 16px;
+    z-index: 1;
+    top: 80%;
+    color: black;
+}
+
+.dropdown:hover .dropdown-profile {
+    display: block;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #DFD9D5;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 480px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .borrow-dialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+  }
