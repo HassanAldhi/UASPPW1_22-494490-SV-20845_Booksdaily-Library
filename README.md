@@ -10,6 +10,8 @@ Seringkali orang menghabiskan waktu yang cukup lama hanya untuk mencari satu buk
 ### 1. Desain rapi mengikuti kaidah atau prinsip desain
 Desain rapi yang mengikuti kaidah atau prinsip desain melibatkan beberapa aspek penting yang dapat membuat tampilan website menjadi menarik, fungsional, dan mudah digunakan oleh pengguna.
 
+![chrome-capture-2023-5-20](https://github.com/HassanAldhi/UASPPW1_22-494490-SV-20845_Booksdaily-Library/assets/59635754/6f829fa8-bc5d-4cb1-9e8f-9635ffb19615)
+
 Menjaga konsistensi dalam tata letak, warna, jenis huruf (font), dan gaya elemen di seluruh halaman website. Menempatkan elemen didalam sebuah container akan membuat konten menjadi tertata dan memiliki konsistensi margin pada setiap elemennya
 ```html
     <div class="container">
@@ -94,6 +96,8 @@ col-lg-3 menunjukkan bahwa kolom tersebut akan memiliki lebar 3 kolom (dari tota
 
 ### 3. Direct feedback ke pengguna website
 Direct Feedback ke pengguna website adalah konsep dimana sebuah website dapat memberikan tanggapan atau informasi secara langsung kepada pengguna terhadap tindakan atau interaksi yang mereka lakukan di dalam website. Tujuan dari direct feedback adalah memberikan pengalaman yang lebih interaktif, informatif, dan responsif kepada pengguna.
+
+![image](https://github.com/HassanAldhi/UASPPW1_22-494490-SV-20845_Booksdaily-Library/assets/59635754/18a36df9-896d-4ffe-9ae0-ec9eccb1a934)
 
 Contoh direct feedback yang diterapkan pada website ini adalah ketika pengguna melakukan login. Apabila terjadi kesalahan terhadap username atau password maka akan muncul pesan secara langsung kepada pengguna. 
 
